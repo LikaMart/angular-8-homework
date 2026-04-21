@@ -5,6 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class StarPipe implements PipeTransform {
   transform(value: number): string {
-    return '*'.repeat(value);
+    return '♥'.repeat(value);
   }
 }
